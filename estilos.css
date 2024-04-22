@@ -1,0 +1,119 @@
+*{
+    font-family:sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: #C5CBE5;
+    text-transform: none; 
+}
+
+header{
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        background: #23347D;     
+}
+
+footer{
+        width: 100%;
+        height:3 em;
+        background: #23347D;
+        margin:auto;
+        padding-top: 00px;
+        display: flex;
+}
+.salud-menta-397303a2ada2 {
+    left: 22px;
+    width: 761px;
+    height: 645px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%,rgba(255, 255, 255, 0.1) 0%), url(https://design.penpot.app/assets/by-file-media-id/61b3a512-985c-80ca-8004-397302b6b26e) no-repeat center center / cover;
+    border: 1px solid #C5CBE5;
+    border-radius: 0px;
+}
+
+
+.nav{ 
+    background: #23347D;
+    display: flex;
+}
+input {                        /*no muestra el botón de menu */
+    display: none;     
+}
+label {                      
+    display:none;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    margin-top:0;
+    padding: 0;
+}
+li {     
+    display: flex;
+    justify-content: center;     
+    width: 159px;
+    height: 52px;
+    background: #23347D;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+}
+ul li{
+    width: 158px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    margin: 40px;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center
+}
+li:hover {                       
+    filter:invert(100%);
+}
+
+.TituloPrincipal{
+        text-align: center;
+        color: rgba(214, 200, 200, 1);
+        text-transform: none;
+        }
+        .contenedor{
+        width: 100%;
+        text-align: center;
+        }
+
+ul li a{
+    text-decoration: none;
+    color: rgba(244, 244, 244, 1);
+        line-break: auto;
+        overflow-wrap: initial;
+        white-space: break-spaces;
+        text-rendering: geometricPrecision;
+        font-size: 16px;
+        font-family: "Sofia Sans Condensed";
+        font-style: normal;
+        font-weight: 400;
+}
+.contenedorflex{
+    display: flex;
+    justify-content:space-around
+}
+.textoflex{
+    display: flex;
+    justify-content:center;
+    color: black;
+}
+@media (max-width:600px) {
+    nav ul li{
+        display: block;
+        justify-content: center;
+}
+.textoflex{
+    display: block;
+    justify-content: center;
+}
+
+}
+
+
